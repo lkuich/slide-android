@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/connectionStatus"
+        android:summary="@string/connect_status_descrip"
+        android:enabled="false"
+        android:key="@string/connectionStatusKey" />
+
+    <PreferenceCategory
+        android:title="@string/catConfig"
+        android:key="pref_cat_key">
+        <Preference
+            android:title="@string/mouseSensitivity"
+            android:summary="@string/mouseSensitivityDescription"
+            android:enabled="true"
+            android:key="@string/mouseSensitivityKey" />
+        <ListPreference
+            android:key="@string/posModeKey"
+            android:title="@string/listPositioningModeTitle"
+            android:dialogTitle="@string/listPositioningModeTitle"
+            android:persistent="true"
+            android:entries="@array/listPositioningModeOptions"
+            android:entryValues="@array/listPositioningModeOptions"
+            android:defaultValue="@string/relative"
+            android:summary="@string/relative" />
+        <SwitchPreference
+            android:key="@string/actionbarKey"
+            android:title="@string/action_bar_enabled"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="@string/drawpathKey"
+            android:title="@string/action_draw_path"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="@string/autoclearKey"
+            android:title="@string/action_auto_clear"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="@string/pressureClickModeKey"
+            android:title="@string/controlsPressureClickMode"
+            android:dialogTitle="@string/controlsPressureClickBehavior"
+            android:persistent="true"
+            android:entries="@array/listPressureMode"
+            android:entryValues="@array/listPressureMode"
+            android:defaultValue="@string/controlsPressureClickDefault"
+            android:summary="@string/controlsPressureClickDefault" />
+        <ListPreference
+            android:key="@string/pressureClickSensitivityKey"
+            android:title="@string/controlsPressureClickSensitivity"
+            android:dialogTitle="@string/controlsPressureClickSensitivity"
+            android:persistent="true"
+            android:entries="@array/controlsPressureClickOptions"
+            android:entryValues="@array/controlsPressureClickOptions"
+            android:defaultValue="@string/controlsPressureClickSensitivityDefault"
+            android:summary="@string/controlsPressureClickSensitivityDefault" />
+        <Preference
+            android:key="@string/pressureClickCustomSensitivityKey"
+            android:defaultValue="0.60"
+            android:title="@string/editCustomPressureTitle"
+            android:inputType="phone"
+            android:enabled="false"
+            android:summary="" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/catControls"
+        android:key="pref_cat_controls">
+
+        <SwitchPreference
+            android:key="@string/rclickKey"
+            android:title="@string/controlsRightClick"
+            android:summary="@string/controlsRightClickSummary"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:key="@string/zoomKey"
+            android:title="@string/controlsZoom"
+            android:summary="@string/controlsZoomSummary"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:key="@string/scrollKey"
+            android:title="@string/controlsScroll"
+            android:summary="@string/controlsScrollSummary"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:key="@string/prclickKey"
+            android:title="@string/controlsPressureClick"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/catApp"
+        android:key="pref_cat_help">
+        <Preference
+            android:key="@string/helpKey"
+            android:title="@string/help" />
+    </PreferenceCategory>
+</PreferenceScreen>

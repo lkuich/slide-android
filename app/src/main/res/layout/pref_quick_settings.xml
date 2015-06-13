@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <Switch
+            android:key="@string/actionbarKey"
+            android:title="@string/action_bar_enabled"
+            android:defaultValue="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Switch
+            android:key="@string/drawpathKey"
+            android:title="@string/action_draw_path"
+            android:defaultValue="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Switch
+            android:key="@string/autoclearKey"
+            android:title="@string/action_auto_clear"
+            android:defaultValue="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:key="@string/pressureClickModeKey"
+            android:title="@string/controlsPressureClickMode"
+            android:dialogTitle="@string/controlsPressureClickBehavior"
+            android:persistent="true"
+            android:entries="@array/listPressureMode"
+            android:entryValues="@array/listPressureMode"
+            android:defaultValue="@string/controlsPressureClickDefault"
+            android:summary="@string/controlsPressureClickDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:key="@string/pressureClickSensitivityKey"
+            android:title="@string/controlsPressureClickSensitivity"
+            android:dialogTitle="@string/controlsPressureClickSensitivity"
+            android:persistent="true"
+            android:entries="@array/controlsPressureClickOptions"
+            android:entryValues="@array/controlsPressureClickOptions"
+            android:defaultValue="@string/controlsPressureClickSensitivityDefault"
+            android:summary="@string/controlsPressureClickSensitivityDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:key="@string/rclickKey"
+            android:title="@string/controlsRightClick"
+            android:summary="@string/controlsRightClickSummary"
+            android:defaultValue="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:key="@string/zoomKey"
+            android:title="@string/controlsZoom"
+            android:summary="@string/controlsZoomSummary"
+            android:defaultValue="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:key="@string/scrollKey"
+            android:title="@string/controlsScroll"
+            android:summary="@string/controlsScrollSummary"
+            android:defaultValue="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:key="@string/prclickKey"
+            android:title="@string/controlsPressureClick"
+            android:defaultValue="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>

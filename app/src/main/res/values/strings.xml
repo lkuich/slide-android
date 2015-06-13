@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="connectionStatusKey">pref_connection_status</string>
+    <string name="mouseSensitivityKey">pref_mouse_sensitivity</string>
+    <string name="posModeKey">pref_positioning_mode</string>
+    <string name="portKey">pref_network_port</string>
+    <string name="actionbarKey">pref_actionbar</string>
+    <string name="drawpathKey">pref_drawpath</string>
+    <string name="autoclearKey">pref_autoclear</string>
+    <string name="rclickKey">pref_rclick</string>
+    <string name="zoomKey">pref_zoom</string>
+    <string name="scrollKey">pref_scroll</string>
+    <string name="prclickKey">pref_prclick</string>
+    <string name="pressureClickModeKey">pref_prcickMode</string>
+    <string name="pressureClickSensitivityKey">pref_prcickSensitivity</string>
+    <string name="pressureClickCustomSensitivityKey">pref_prCustom</string>
+    <string name="changelogKey">pref_changelog</string>
+    <string name="aboutKey">pref_about</string>
+    <string name="helpKey">pref_help</string>
+    <!-- values -->
+    <string name="app_name">Slide</string>
+    <string name="connectionStatus">Connection Status</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_keyboard">Show Keyboard</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_cut">Cut</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_hide">Hide</string>
+    <string name="show_settings">Settings</string>
+    <string name="action_pressure_mode">Pressure Mode</string>
+    <string name="action_pressure_sensitivity">Pressure Sensitivity</string>
+    <string name="action_draw_path">Enable Draw Path</string>
+    <string name="action_auto_clear">Auto Clear Canvas</string>
+    <string name="action_clear">Clear Canvas</string>
+    <string name="action_bar_enabled">Action Bar</string>
+    <string name="action_close">Close</string>
+    <string name="connect_status_descrip">Listening on&#8230;</string>
+    <string name="mouseSensitivityDescription">Determines the rate the mouse moves: 1</string>
+    <string name="catConfig">Configuration</string>
+    <string name="listPositioningModeTitle">Positioning Mode</string>
+
+    <string-array name="listPositioningModeOptions">
+        <item name="relative">Relative</item>
+        <!-- <item name="absolute">Absolute</item> -->
+    </string-array>
+
+    <string name="mouseSensitivity">Mouse Sensitivity</string>
+    <string name="relative">Relative</string>
+    <string name="absolute">Absolute</string>
+    <string name="catControls">Controls</string>
+    <string name="controlsRightClick">Right Clicking</string>
+    <string name="controlsRightClickSummary">Long Press and Hold</string>
+    <string name="controlsZoom">Pinch to Zoom</string>
+    <string name="controlsZoomSummary">2 Fingers Pinch</string>
+    <string name="controlsScroll">X/Y Scrolling</string>
+    <string name="controlsScrollSummary">Tap, then Drag 2 Fingers</string>
+    <string name="controlsPressureClick">Pressure Clicking Enabled</string>
+    <string name="controlsPressureClickMode">Pressure Mode</string>
+
+    <string-array name="listPressureMode">
+        <item>Initial Touch</item>
+        <item>Toggle</item>
+    </string-array>
+
+    <string name="controlsPressureClickBehavior">Behavior</string>
+    <string name="controlsPressureClickDefault">Initial Touch</string>
+    <string name="controlsPressureClickSensitivity">Pressure Sensitivity</string>
+
+    <string-array name="controlsPressureClickOptions">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="controlsPressureClickSensitivityDefault">Medium</string>
+    <string name="editCustomPressureTitle">Custom Pressure Sensitivity</string>
+    <string name="catApp">Application</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="animation_speed_title">Animation Speed</string>
+</resources>

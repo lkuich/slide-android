@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_keyboard"
+        android:icon="@drawable/ic_action_keyboard"
+        android:title="@string/action_keyboard"
+        android:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_cut"
+        android:icon="@drawable/ic_action_cut"
+        android:title="@string/action_cut"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_action_copy"
+        android:title="@string/action_copy"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_paste"
+        android:icon="@drawable/ic_action_paste"
+        android:title="@string/action_paste"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_pos"
+        android:showAsAction="never"
+        android:title="@string/listPositioningModeTitle" />
+    <item
+        android:id="@+id/action_rclick"
+        android:showAsAction="never"
+        android:title="@string/controlsRightClick"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_zoom"
+        android:showAsAction="never"
+        android:title="@string/controlsZoom"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_scroll"
+        android:showAsAction="never"
+        android:title="@string/controlsScroll"
+        android:checkable="true" />
+    <item
+        android:id="@+id/action_auto_clear"
+        android:showAsAction="never"
+        android:checkable="true"
+        android:checked="true"
+        android:title="@string/action_auto_clear" />
+    <item
+        android:id="@+id/action_clear_canvas"
+        android:showAsAction="never"
+        android:title="@string/action_clear" />
+    <item
+        android:id="@+id/action_bar_enabled"
+        android:showAsAction="never"
+        android:checkable="true"
+        android:checked="true"
+        android:title="@string/action_bar_enabled" />
+    <item
+        android:id="@+id/action_close"
+        android:showAsAction="never"
+        android:title="@string/action_close" />
+</menu>

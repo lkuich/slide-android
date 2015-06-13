@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="Theme.AppCompat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#212121</item>
+    </style>
+
+    <!-- <style name="Theme.AppCompat" parent="android:Theme.Material.Light.DarkActionBar"> -->
+
+        <!--
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:colorAccent">#F50057</item>
+-->
+    <!--
+        <item name="android:colorPrimary">#009688</item>
+        <item name="android:colorPrimaryDark">#00796B</item>
+        <item name="android:colorAccent">#FFC107</item>
+        <item name="android:textColorPrimary">#212121</item>
+-->
+        <!-- <item name="android:colorPrimary">#5677fc</item>
+        <item name="android:colorPrimaryDark">#455ede</item>
+        <item name="android:colorAccent">#5677fc</item> -->
+        <!-- #3f51b5 -->
+        <!-- #e84e40 -->
+</resources>
